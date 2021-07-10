@@ -12,7 +12,7 @@ header{
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    flex-wrap: wrap;
+    
 }
 header ul{
     text-decoration: none;
@@ -20,6 +20,7 @@ header ul{
     display: flex;
     justify-content: space-around;
     text-align: center;
+flex-wrap: wrap;
 }
 header ul li{
     margin-top: 3vh;
