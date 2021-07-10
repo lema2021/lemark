@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    margin-top: 2vh;
+    margin-bottom: 0;
+    font-family: 'Tourney', cursive;
+    font-size: 50px;
+    font-weight: 800;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.comidas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.comidas > img{
+    height: 100px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+#contacto span{
+    font-family: 'Tourney', cursive;
+    font-weight: 800;
+    color: #ECCB5B;
+}
+#contacto h5{
+    color: white ;
+}
+#contacto h3{
+    color: #F7EFED;
+}
+.btn-lg{
+    font-family: 'Tourney', cursive;
+    font-size: 50px;
+    font-weight: 600;
+}
+.title{
+    font-family: 'Tourney', cursive;
+    font-size: 40px;
+    font-weight: 800;
+}
+.footer{
+    font-weight: 800;
+}
+.footer-img{
+    border-radius: 10%;
+}
